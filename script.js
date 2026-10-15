@@ -3,7 +3,7 @@ const turnsDisplay = document.getElementById('turns');
 const restartBtn = document.getElementById('restart-btn');
 
 // かわいい絵文字のリスト（ペアにするもの）
-const emojis = ['🍓', '🍑', '🐱', '🐰', '⭐', '🌸', '🐰', '🐼']; 
+const emojis = ['🌸', '⭐', '🌈', '🌙', '🎀', '💎', '🦄', '🍀']; 
 // ※8種類用意すると、2ペアずつで16枚のカード（4x4）になります
 let gameEmojis = [...emojis, ...emojis]; // ペアにするために2倍にする
 
